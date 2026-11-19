@@ -1,0 +1,14 @@
+{
+  "name": "postscript-partner-app-example",
+  "version": "1.0.0",
+  "description": "Sample OAuth app for Postscript partner developers",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  }
+}
